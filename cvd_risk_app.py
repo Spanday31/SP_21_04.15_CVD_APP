@@ -102,7 +102,7 @@ with col2:
 with col3:
     weight = st.number_input("Weight (kg)", min_value=40.0, max_value=200.0, value=75.0, step=0.1)
     height = st.number_input("Height (cm)", min_value=140.0, max_value=210.0, value=170.0, step=0.1)
-    bmi = round(weight / ((height/100)**2, 1)
+    bmi = round(weight / ((height/100)**2, 1))
     st.markdown(f"**BMI:** {bmi} kg/m²")
 
 # 2. CLINICAL MARKERS --------------------------------------
